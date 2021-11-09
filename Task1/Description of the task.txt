@@ -1,0 +1,30 @@
+The aim of this activity is to practice using one-dimensional arrays by using values
+read into an array and then calculate the product of two of these values.
+• Write a program that creates a double array of length 4 at the beginning.
+• Then read in floating point numbers from the command line until something
+other than a floating point number follows (for example, an x). In.done () then delivers
+In.readDouble () the value false.
+• Save each read number in the array.
+• If the array becomes too small, insert a new array with twice the size
+and copy the values   of the previous array into this new one in a loop
+Array. Existing methods such as System.arraycopy () or Arrays.copyof () are allowed
+cannot be used to copy the array.
+After the numbers have been read into the array, it should now be processed as follows
+will:
+• If no value has been read in, terminate the program with the output
+No value read.
+• Now create their product for each pair “from the outside in”. Note:
+Make sure that you only process those values   that you actually read
+to have. For example, your array may hold 8 elements, but it does
+only 6 values   were read. Only the read-in values   may be taken into account
+will.
+• Save the products in a new array of the appropriate size.
+• The first product is determined by multiplying the first with the last value
+the second product by multiplying the second by the penultimate value,
+and so forth. If an uneven number of values   has been read in, the value is stored in the
+Middle multiplied by itself.
+Examples:
+With six read-in values   ({a0, a1, a2, a3, a4, a5}) the array of products contains the following three values: a0 * a5, a1 * a4, a2 * a3
+If five values   are read ({a0, a1, a2, a3, a4}) the array contains the products
+the following three values: a0 * a4, a1 * a3, a2 * a2
+• Then dispense the products.
