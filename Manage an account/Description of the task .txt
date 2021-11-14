@@ -1,0 +1,21 @@
+ exercise you should practice working with global variables.
+To do this, you should develop a program that uses a global variable to manage an account. There should be methods for depositing and withdrawing from the account. aside from that
+there should still be a method that outputs the account balance of the account.
+Your task is as follows:
+• Declare a global variable of type float and initialize it with 0.
+• Create a method of depositing into an account, using this method the amount
+as a float parameter.
+• Create a method of withdrawing money from an account that also does the
+Receives amount as a float parameter. This method is intended to check whether there is enough
+There is money in the account, otherwise an error message should be issued and the
+Account balance cannot be changed.
+• Create a method to return the balance.
+• A management for the account is to be implemented in the main method. First
+should always be asked for the desired operation (1 = deposit, 2 = payout, 3 = show account balance, 4 = end).
+When paying in or out, the amount should then be read and finally the respective
+Operation to be performed.
+If the operation has been completed, should start again from the beginning and after the
+next desired operation will be asked. An invalid operation is chosen
+(i.e. a number greater than 4, 0, a negative number) should be repeated directly after the desired
+Surgery will be asked. The case that no number is entered does not need to be dealt with
+will.
